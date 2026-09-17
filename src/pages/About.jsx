@@ -8,6 +8,7 @@ export default function About() {
       <h2>41 Club 4, Biratnagar, Nepal</h2>
       <p className="intro">
         Club 4 is one of five chartered clubs under 41 Clubs Nepal.
+        We have a nickname 'MR. ARM BAND' 
       </p>
 
       <AboutSubnav />
@@ -47,6 +48,23 @@ export default function About() {
           41 Clubs Nepal operates under the global banner of 41 International,
           connecting members to a worldwide network built on the motto "May
           the chains of friendship never rust."
+        </p>
+      </div>
+
+      <div className="subhead">
+        <h3>Members of 41 Club 4</h3>
+        <p>
+          M - Mahendra Agarwal <br />
+          R - Rajesh Lohiya <br /><br />
+          A - Arun Todi <br />
+          R - Rajesh Bagadia <br />
+          M - Manoj Goyal <br /><br />
+          B - Binod Agarwal <br />
+          A - Abishek Todi <br />
+          N - Naresh Rathi <br />
+          D - Dharmendra Agarwal
+          <br />
+          We have honurary member as Ojesh Agarwal
         </p>
       </div>
     </div>

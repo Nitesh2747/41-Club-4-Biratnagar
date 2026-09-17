@@ -25,13 +25,13 @@ export const boards = [
   },
   {
     name: "41er Abhishek Todi",
-    term: "National Extension Coordinator (2026–27)",
+    term: "National Extension Convenor (2026–27)",
     image: "/images/office-bearers/abhishek-todi.jpg",
     tone: "pine",
   },
   {
     name: "41er Rajesh Lohiya",
-    term: "National AGM Coordinator (2026–27)",
+    term: "National AGM Convenor (2026–27)",
     image: "/images/office-bearers/rajesh-lohiya.jpg",
     tone: "pine",
   },

@@ -64,6 +64,8 @@ export default function Home() {
             <br />
             <span className="quote-role">Chairman, 41 Club 4 Biratnagar (2026–28)</span>
           </p>
+          <br />
+          <span >Theme of year 26-27 "FRIENDSHIP IS GREATEST GIFT"</span>
         </div>
       </div>
 

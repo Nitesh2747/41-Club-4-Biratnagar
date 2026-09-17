@@ -3,7 +3,7 @@ import AboutSubnav from "../components/AboutSubnav.jsx";
 import Avatar from "../components/Avatar.jsx";
 import { chairmans } from "../data/chairmans.js";
 
-export default function PresidentsGallery() {
+export default function ChairmansGallery() {
   return (
     <div className="page">
       <SectionLabel>About</SectionLabel>

@@ -19,7 +19,7 @@ export const chairmans = [
   },
   {
     name: "41er Binod Kumar Agrawal",
-    term: "Charter Chairman (2022–21)",
+    term: "Charter Chairman (2021-22)",
     image: "/images/office-bearers/binod-agrawal.jpg",
     tone: "brick",
   },
