@@ -1,0 +1,38 @@
+export const boards = [
+  {
+    name: "41er Arun Todi",
+    term: "President (2026–27)",
+    image: "/images/office-bearers/arun-todi.jpg",
+    tone: "marigold",
+  },
+  {
+    name: "41er Mahendra Agrawal",
+    term: "Vice President (2026–27)",
+    image: "/images/office-bearers/mahendra-agrawal-2.jpg",
+    tone: "pine",
+  },
+  {
+    name: "41er Rajesh Bagadia",
+    term: "Secretary (2026–27)",
+    image: "/images/office-bearers/rajesh-bagadia.jpg",
+    tone: "brick",
+  },
+  {
+    name: "41er Chandra Agrawal",
+    term: "IRO (2026–27)",
+    image: "/images/office-bearers/chandra-agrawal.jpg",
+    tone: "pine",
+  },
+  {
+    name: "41er Abhishek Todi",
+    term: "National Extension Coordinator (2026–27)",
+    image: "/images/office-bearers/abhishek-todi.jpg",
+    tone: "pine",
+  },
+  {
+    name: "41er Rajesh Lohiya",
+    term: "National AGM Coordinator (2026–27)",
+    image: "/images/office-bearers/rajesh-lohiya.jpg",
+    tone: "pine",
+  },
+];

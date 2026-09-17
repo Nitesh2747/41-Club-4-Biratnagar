@@ -2,9 +2,8 @@ import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
-import PresidentsGallery from "./pages/PresidentsGallery.jsx";
-import Board from "./pages/Board.jsx";
-import NexCouncil from "./pages/NexCouncil.jsx";
+import ChairmansGallery from "./pages/ChairmansGallery.jsx";
+import NationalBoard from "./pages/NationalBoard.jsx";
 import OfficeBearers from "./pages/OfficeBearers.jsx";
 import Events from "./pages/Events.jsx";
 import Blog from "./pages/Blog.jsx";
@@ -19,9 +18,8 @@ export default function App() {
       <Route element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
-        <Route path="about/chairmans-gallery" element={<PresidentsGallery />} />
-        <Route path="about/board" element={<Board />} />
-        <Route path="about/national-board" element={<NexCouncil />} />
+        <Route path="about/chairmans-gallery" element={<ChairmansGallery />} />
+        <Route path="about/national-board" element={<NationalBoard />} />
         <Route path="office-bearers" element={<OfficeBearers />} />
         <Route path="events" element={<Events />} />
         <Route path="blog" element={<Blog />} />

@@ -1,4 +1,4 @@
-export const presidents = [
+export const chairmans = [
   {
     name: "41er Rajesh Lohiya",
     term: "Chariman (2026–28)",

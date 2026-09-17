@@ -4,10 +4,9 @@ import { Menu, X } from "lucide-react";
 import Logo from "./Logo.jsx";
 
 const ABOUT_LINKS = [
-  { to: "/about", label: "41 Clubs Nepal", end: true },
+  { to: "/about", label: "41 Club 4 Brt", end: true },
   { to: "/about/chairmans-gallery", label: "Chairman's Gallery" },
-  { to: "/about/board", label: "41Clubs Nepal Board" },
-  { to: "/about/national-board", label: "National Board" },
+  { to: "/about/national-board", label: "National Board Representatives" },
 ];
 
 const MAIN_LINKS = [

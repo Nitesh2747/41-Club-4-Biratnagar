@@ -1,23 +1,22 @@
+import { Users } from "lucide-react";
 import SectionLabel from "../components/SectionLabel.jsx";
 import AboutSubnav from "../components/AboutSubnav.jsx";
 import Avatar from "../components/Avatar.jsx";
-import { presidents } from "../data/presidents.js";
+import { boards } from "../data/boards.js";
 
-export default function PresidentsGallery() {
+export default function NationalBoard() {
   return (
     <div className="page">
       <SectionLabel>About</SectionLabel>
-      <h2>Chairman's Gallery</h2>
+      <h2>National Board Representatives</h2>
       <p className="intro">
-        The National Presidents of 41 Clubs Nepal, by term. A dedicated
-        gallery for Club 4's own past chairmen can be added here once
-        recorded.
+        Club 4's representation on the National Board for year 2026-27 is as follows.
       </p>
 
       <AboutSubnav />
 
       <div className="people-grid">
-        {presidents.map((p) => (
+        {boards.map((p) => (
           <div className="person-card" key={p.name}>
             <Avatar name={p.name} image={p.image} tone={p.tone} />
             <div>

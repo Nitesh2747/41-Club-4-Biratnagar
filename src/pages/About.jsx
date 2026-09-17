@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="page">
       <SectionLabel>About</SectionLabel>
-      <h2>41 Clubs 4 Biratnagar Nepal</h2>
+      <h2>41 Club 4, Biratnagar, Nepal</h2>
       <p className="intro">
         Club 4 is one of five chartered clubs under 41 Clubs Nepal.
       </p>
@@ -15,7 +15,7 @@ export default function About() {
       <div className="subhead">
         <h3>Who we are</h3>
         <p>
-          41 Clubs Nepal carries the spirit of fellowship and service forward
+          41 Club 4 brt carries the spirit of fellowship and service forward
           beyond the active years of Round Table, bringing together former
           Round Tablers aged 40 and above. It gives members a way to continue
           building friendship, leadership and community service long after

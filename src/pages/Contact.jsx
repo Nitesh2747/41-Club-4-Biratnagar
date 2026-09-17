@@ -15,15 +15,19 @@ export default function Contact() {
           <h3>Club 4, Biratnagar</h3>
           <div className="contact-row">
             <MapPin size={16} />
-            <span>Biratnagar, Koshi Province, Nepal — add the club's exact meeting venue here.</span>
+            <span>Biratnagar, Koshi Province, Nepal</span>
+          </div>
+          <div className="contact-row">
+            <Phone size={16} />
+            <a href="tel:+9779852026032">+977 9852026032</a>
           </div>
           <div className="contact-row">
             <Mail size={16} />
-            <span>tbd</span>
+            <a href="mailto:rajesh26032@gmail.com">rajesh26032@gmail.com</a>
           </div>
         </div>
         <div className="contact-block">
-          <h3>41 Clubs Nepal — national secretariat</h3>
+          <h3>41 Clubs Nepal</h3>
           <div className="contact-row">
             <MapPin size={16} />
             <span>Kathmandu, Nepal</span>
