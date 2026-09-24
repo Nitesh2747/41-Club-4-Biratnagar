@@ -14,7 +14,7 @@ const MAIN_LINKS = [
   { to: "/office-bearers", label: "Office bearers" },
   // { to: "/blog", label: "Blog" },
   { to: "/events", label: "Events" },
-  { to: "/downloads", label: "Downloads" },
+  // { to: "/downloads", label: "Downloads" },
   { to: "/links", label: "Links" },
   { to: "/contact", label: "Contact" },
 ];
@@ -96,9 +96,9 @@ export default function Header() {
           <NavLink className="nav-link" to="/events">
             Events
           </NavLink>
-          <NavLink className="nav-link" to="/downloads">
+          {/* <NavLink className="nav-link" to="/downloads">
             Downloads
-          </NavLink>
+          </NavLink> */}
           <NavLink className="nav-link" to="/links">
             Links
           </NavLink>

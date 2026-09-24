@@ -32,6 +32,8 @@ export const events = [
             "/images/events/other-activities-3.jpeg",
             "/images/events/other-activities-4.jpeg",
             "/images/events/other-activities-5.jpeg",
+            "/images/events/other-activities-6.jpeg",
+            "/images/events/other-activities-7.jpeg",
         ],
     },
     {
@@ -64,6 +66,8 @@ export const events = [
             "/images/events/charity-1.jpeg",
             "/images/events/charity-2.jpeg",
             "/images/events/charity-3.jpeg",
+            "/images/events/charity-4.jpeg",
+            "/images/events/charity-5.jpeg",
         ],
     },
 ];
