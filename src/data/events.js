@@ -14,6 +14,7 @@ export const events = [
             "/images/events/agm-2.jpeg",
             "/images/events/agm-3.jpeg",
             "/images/events/agm-4.jpeg",
+            "/images/events/agm-5.jpeg",
         ],
     },
     {
@@ -45,6 +46,9 @@ export const events = [
         images: [
             "/images/events/nagm-1.jpeg",
             "/images/events/nagm-2.jpeg",
+            "/images/events/nagm-3.jpeg",
+            "/images/events/nagm-4.jpeg",
+            "/images/events/nagm-5.jpeg",
         ],
     },
     {
