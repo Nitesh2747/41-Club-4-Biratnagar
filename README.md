@@ -1,6 +1,8 @@
 # 41 Club 4, Biratnagar — website
 
-A multi-page React app (Vite + React Router) for 41 Club 4, Biratnagar, Nepal
+A multi-page React app (Vite + React Router) for 41 Club 4, Biratnagar, Nepal.
+
+Access the live site here: [41 Club 4, Brt](https://41club4-brt.vercel.app/)
 
 ## Run it locally
 

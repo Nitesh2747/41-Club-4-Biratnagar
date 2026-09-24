@@ -9,9 +9,7 @@ export default function ChairmansGallery() {
       <SectionLabel>About</SectionLabel>
       <h2>Chairman's Gallery</h2>
       <p className="intro">
-        The National Presidents of 41 Clubs Nepal, by term. A dedicated
-        gallery for Club 4's own past chairmen can be added here once
-        recorded.
+        A dedicated gallery for 41 Club 4's past and current chairmen.
       </p>
 
       <AboutSubnav />

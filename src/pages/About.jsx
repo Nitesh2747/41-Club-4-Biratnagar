@@ -1,5 +1,6 @@
 import SectionLabel from "../components/SectionLabel.jsx";
 import AboutSubnav from "../components/AboutSubnav.jsx";
+import CharterClub from "../components/CharterClub.jsx";
 
 export default function About() {
   return (
@@ -8,40 +9,45 @@ export default function About() {
       <h2>41 Club 4, Biratnagar, Nepal</h2>
       <p className="intro">
         Club 4 is one of five chartered clubs under 41 Clubs Nepal.
-        We have a nickname 'MR. ARM BAND' 
+        We have a nickname for the club called 'MR. ARM BAND CO.' which is derived from the first letters of the names of our members.
       </p>
 
       <AboutSubnav />
 
-      <div className="subhead">
-        <h3>Who we are</h3>
-        <p>
-          41 Club 4 brt carries the spirit of fellowship and service forward
-          beyond the active years of Round Table, bringing together former
-          Round Tablers aged 40 and above. It gives members a way to continue
-          building friendship, leadership and community service long after
-          their Tabler years end.
-        </p>
-        <p>
-          The guiding philosophy is "Service Through Fellowship" — members
-          come together for meaningful relationships while contributing to
-          the betterment of society, carrying forward the Round Table values
-          of fellowship, leadership, service and commitment to community.
-        </p>
-      </div>
+      <div className="about-hero">
+        <div>
+          <div className="subhead">
+            <h3>Who we are</h3>
+            <p>
+              41 Club 4 brt carries the spirit of fellowship and service forward
+              beyond the active years of Round Table, bringing together former
+              Round Tablers aged 40 and above. It gives members a way to continue
+              building friendship, leadership and community service long after
+              their Tabler years end.
+            </p>
+            <p>
+              The guiding philosophy is "Service Through Fellowship".
+              Members come together for meaningful relationships while contributing to
+              the betterment of society, carrying forward the Round Table values
+              of fellowship, leadership, service and commitment to community.
+            </p>
+          </div>
 
-      <div className="subhead">
-        <h3>What the club does</h3>
-        <p>
-          Members work alongside Round Table Nepal, Tangent clubs and Ladies
-          Circle Nepal on projects spanning education, healthcare, community
-          development and disaster relief — identifying genuine local needs
-          and turning them into action. The organization reports that
-          contributions go directly to service projects with no overhead
-          taken out.
-        </p>
+          <div className="subhead">
+            <h3>What the club does</h3>
+            <p>
+              Members work alongside Round Table Nepal, Tangent clubs and Ladies
+              Circle Nepal on projects spanning education, healthcare, community
+              development and disaster relief, identifying genuine local needs
+              and turning them into action. The organization reports that
+              contributions go directly to service projects with no overhead
+              taken out.
+            </p>
+          </div>
+        </div>
+        <CharterClub />
       </div>
-
+      
       <div className="subhead">
         <h3>Part of a global movement</h3>
         <p>
@@ -55,16 +61,20 @@ export default function About() {
         <h3>Members of 41 Club 4</h3>
         <p>
           M - Mahendra Agarwal <br />
-          R - Rajesh Lohiya <br /><br />
+          R - Rajesh Lohiya <br />
+          <br />
           A - Arun Todi <br />
           R - Rajesh Bagadia <br />
-          M - Manoj Goyal <br /><br />
+          M - Manoj Goyal <br />
+          <br />
           B - Binod Agarwal <br />
           A - Abishek Todi <br />
           N - Naresh Rathi <br />
-          D - Dharmendra Agarwal
+          D - Dharmendra Agarwal <br />
           <br />
-          We have honurary member as Ojesh Agarwal
+          {/* We have honorary member as Ojesh Agarwal */}
+          C - Chandra Agrawal <br />
+          O - Ojesh Agarwal <br />
         </p>
       </div>
     </div>

@@ -12,7 +12,7 @@ const ABOUT_LINKS = [
 const MAIN_LINKS = [
   { to: "/", label: "Home", end: true },
   { to: "/office-bearers", label: "Office bearers" },
-  { to: "/blog", label: "Blog" },
+  // { to: "/blog", label: "Blog" },
   { to: "/events", label: "Events" },
   { to: "/downloads", label: "Downloads" },
   { to: "/links", label: "Links" },
@@ -90,9 +90,9 @@ export default function Header() {
           <NavLink className="nav-link" to="/office-bearers">
             Office bearers
           </NavLink>
-          <NavLink className="nav-link" to="/blog">
+          {/* <NavLink className="nav-link" to="/blog">
             Blog
-          </NavLink>
+          </NavLink> */}
           <NavLink className="nav-link" to="/events">
             Events
           </NavLink>

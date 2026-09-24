@@ -1,6 +1,7 @@
-import { Calendar } from "lucide-react";
+import { Clock, MapPin } from "lucide-react";
 import SectionLabel from "../components/SectionLabel.jsx";
-import EmptyState from "../components/EmptyState.jsx";
+import EventImageCarousel from "../components/EventImageCarousel.jsx";
+import { events } from "../data/events.js";
 
 export default function Events() {
   return (
@@ -8,25 +9,38 @@ export default function Events() {
       <SectionLabel>Calendar</SectionLabel>
       <h2>Events</h2>
       <p className="intro">
-        Club gatherings, service projects and joint events with sister clubs
-        will be listed here as they're scheduled.
+        Club gatherings, service projects and joint events with family clubs.
       </p>
+
       <div className="events-grid">
-        <EmptyState
-          icon={Calendar}
-          title="No events scheduled yet"
-          body="Add your next club meeting or project date here."
-        />
-        <EmptyState
-          icon={Calendar}
-          title="Nothing planned yet"
-          body="Joint events with Round Table or Ladies Circle Nepal can go here."
-        />
-        <EmptyState
-          icon={Calendar}
-          title="Open slot"
-          body="Community service days and fellowship nights belong on this calendar."
-        />
+        {events.map((e) => (
+          <div className="blog-card" key={e.title}>
+            {e.images && e.images.length > 0 && (
+              <EventImageCarousel images={e.images} alt={e.title} />
+            )}
+            <div className="blog-card-body">
+              <span className="blog-card-date">{e.date}</span>
+              <h3>{e.title}</h3>
+              <p>{e.description}</p>
+
+              {e.outcome && (
+                <div className="event-outcome">
+                  <span className="event-outcome-label">Outcome</span>
+                  <p>{e.outcome}</p>
+                </div>
+              )}
+
+              <div className="contact-row">
+                <Clock size={16} />
+                <span>{e.time}</span>
+              </div>
+              <div className="contact-row">
+                <MapPin size={16} />
+                <span>{e.location}</span>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );

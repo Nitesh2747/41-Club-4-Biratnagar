@@ -86,14 +86,14 @@ export default function Home() {
             See events <ArrowUpRight size={14} />
           </span>
         </Link>
-        <Link className="preview-card" to="/blog">
+        {/* <Link className="preview-card" to="/blog">
           <FileText size={20} color="var(--brick)" />
           <h3>Blog</h3>
           <p>Stories and updates from across the 41 Clubs Nepal family.</p>
           <span className="arrow">
             Read the blog <ArrowUpRight size={14} />
           </span>
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
