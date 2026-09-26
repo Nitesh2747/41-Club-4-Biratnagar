@@ -3,23 +3,30 @@ export const officeBearers = [
     name: "Rajesh Lohiya",
     role: "Chairman",
     tone: "pine",
-    image: "/images/office-bearers/rajesh-lohiya.jpg",
+    image: "/images/members/rajesh-lohiya.jpg",
   },
   {
     name: "Mahendra Kr. Agrawal",
     role: "Vice-Chairman",
     tone: "brick",
-    image: "/images/office-bearers/mahendra-agrawal-2.jpg",
+    image: "/images/members/mahendra-agrawal-2.jpg",
   },
   {
     name: "Arun Todi",
     role: "Secretary",
     tone: "ink",
-    image: "/images/office-bearers/arun-todi.jpg",
-  },{
+    image: "/images/members/arun-todi.jpg",
+  },
+  {
     name: "Dharmendra Agarwal",
     role: "Treasurer",
     tone: "marigold",
-    image: "/images/office-bearers/dharmendra-agarwal.jpg",
+    image: "/images/members/dharmendra-agarwal.jpg",
+  },
+  {
+    name: "Avishek Todi",
+    role: "IPC",
+    tone: "marigold",
+    image: "/images/members/abhishek-todi.jpg",
   }
 ];

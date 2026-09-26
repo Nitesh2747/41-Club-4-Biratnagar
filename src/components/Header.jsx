@@ -12,6 +12,7 @@ const ABOUT_LINKS = [
 const MAIN_LINKS = [
   { to: "/", label: "Home", end: true },
   { to: "/office-bearers", label: "Office bearers" },
+  { to: "/members", label: "Members" },
   // { to: "/blog", label: "Blog" },
   { to: "/events", label: "Events" },
   // { to: "/downloads", label: "Downloads" },
@@ -63,9 +64,8 @@ export default function Header() {
           </NavLink>
 
           <div
-            className={`nav-dropdown${aboutActive ? " active" : ""}${
-              aboutOpen ? " open" : ""
-            }`}
+            className={`nav-dropdown${aboutActive ? " active" : ""}${aboutOpen ? " open" : ""
+              }`}
             ref={aboutRef}
             onMouseEnter={() => setAboutOpen(true)}
             onMouseLeave={() => setAboutOpen(false)}
@@ -89,6 +89,9 @@ export default function Header() {
 
           <NavLink className="nav-link" to="/office-bearers">
             Office bearers
+          </NavLink>
+          <NavLink className="nav-link" to="/members">
+            Members
           </NavLink>
           {/* <NavLink className="nav-link" to="/blog">
             Blog

@@ -519,7 +519,52 @@ img {
   font-size: 13.5px;
   color: var(--muted);
 }
-
+.members-grid {
+  display: grid;
+  gap: 18px;
+}
+@media (min-width: 640px) {
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.member-card {
+  border: 1px solid var(--line);
+  padding: 24px;
+}
+.member-card-top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.member-card-top h3 {
+  font-size: 17px;
+  margin-bottom: 3px;
+}
+.member-card-top span {
+  font-size: 13.5px;
+  color: var(--muted);
+}
+.member-family {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.member-family-row {
+  display: flex;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.member-family-label {
+  font-weight: 500;
+  color: var(--ink);
+  min-width: 56px;
+  flex-shrink: 0;
+}
 /* ---------- Empty states ---------- */
 .empty {
   border: 1px dashed var(--line);

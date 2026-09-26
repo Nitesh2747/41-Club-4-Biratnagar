@@ -11,6 +11,7 @@ import Downloads from "./pages/Downloads.jsx";
 import Links from "./pages/Links.jsx";
 import Contact from "./pages/Contact.jsx";
 import NotFound from "./pages/NotFound.jsx";
+import Members from "./pages/Members.jsx";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <Route path="about/chairmans-gallery" element={<ChairmansGallery />} />
         <Route path="about/national-board" element={<NationalBoard />} />
         <Route path="office-bearers" element={<OfficeBearers />} />
+        <Route path="members" element={<Members />} />
         <Route path="events" element={<Events />} />
         <Route path="blog" element={<Blog />} />
         <Route path="downloads" element={<Downloads />} />

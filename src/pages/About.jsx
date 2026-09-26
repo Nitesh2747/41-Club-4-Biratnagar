@@ -68,14 +68,16 @@ export default function About() {
           M - Manoj Goyal <br />
           <br />
           B - Binod Agarwal <br />
-          A - Abishek Todi <br />
+          A - Avishek Todi <br />
           N - Naresh Rathi <br />
           D - Dharmendra Agarwal <br />
           <br />
-          {/* We have honorary member as Ojesh Agarwal */}
           C - Chandra Agrawal <br />
           O - Ojesh Agarwal <br />
         </p>
+        {/* <p>
+          The club was founded in 2017. Charter Chairman was Binod Agarwal etc
+        </p> */}
       </div>
     </div>
   );
