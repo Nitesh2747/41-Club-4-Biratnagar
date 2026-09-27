@@ -64,20 +64,14 @@ export default function Header() {
           </NavLink>
 
           <div
-            className={`nav-dropdown${aboutActive ? " active" : ""}${aboutOpen ? " open" : ""
-              }`}
+            className={`nav-dropdown ${aboutActive ? " active" : ""} ${aboutOpen ? " open" : ""}`}
             ref={aboutRef}
             onMouseEnter={() => setAboutOpen(true)}
             onMouseLeave={() => setAboutOpen(false)}
           >
-            <button
-              type="button"
-              aria-haspopup="true"
-              aria-expanded={aboutOpen}
-              onClick={() => setAboutOpen((v) => !v)}
-            >
+            <NavLink className="nav-link" to="/about" end>
               About
-            </button>
+            </NavLink>
             <div className="nav-dropdown-menu">
               {ABOUT_LINKS.map((l) => (
                 <NavLink key={l.to} to={l.to} end={l.end}>
@@ -106,7 +100,7 @@ export default function Header() {
             Links
           </NavLink>
           <NavLink className="nav-link" to="/contact">
-            Contact
+            Contact Us
           </NavLink>
         </nav>
 

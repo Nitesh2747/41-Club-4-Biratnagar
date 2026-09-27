@@ -75,9 +75,9 @@ export default function About() {
           C - Chandra Agrawal <br />
           O - Ojesh Agarwal <br />
         </p>
-        {/* <p>
-          The club was founded in 2017. Charter Chairman was Binod Agarwal etc
-        </p> */}
+        <p>
+          Founded on September 24, 2021, the club commenced its journey with <br /> <b>Binod Agarwal</b> serving as the <b>Charter Chairman</b>, <br /><b>Rajesh Bagadia</b> as the <b>Charter Vice-Chairman</b>, <br /><b>Avishek Todi</b> as the <b>Charter Secretary</b>, and <br /><b>Rajesh Lohiya</b> as the <b>Treasurer</b>. <br />Together, the founding leadership laid the groundwork for the club’s vision, structure, and continued growth and made it what it is today.
+        </p>
       </div>
     </div>
   );

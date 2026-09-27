@@ -40,17 +40,17 @@ src/
 | `/about/board`                 | Board                           |
 | `/about/national-board`        | National Board                  |
 | `/office-bearers`              | Club 4's 2025–26 office bearers |
+| `/members`                     | Members & their families        |
 | `/events`                      | Events                          |
-| `/blog`                        | Blog                            |
-| `/downloads`                   | Downloads                       |
 | `/links`                       | Sister clubs & associations     |
-| `/contact`                     | Contact                         |
+| `/contact`                     | Contact Us                      |
 
-
+<!-- | `/blog`                        | Blog                            |
+| `/downloads`                   | Downloads                       | -->
 
 
 ## Design
 
 Colors, fonts and spacing are defined as CSS custom properties at the top of
-`src/styles/index.css` — change `--marigold`, `--brick`, `--pine`, `--ink`,
-and `--paper` to retheme the whole site from one place.
+`src/styles/index.css`
+- change the values to retheme the whole site from one place.

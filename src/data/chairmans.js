@@ -3,7 +3,7 @@ export const chairmans = [
     name: "41er Rajesh Lohiya",
     term: "Chariman (2026–28)",
     image: "/images/members/rajesh-lohiya.jpg",
-    tone: "marigold",
+    tone: "mustard",
   },
   {
     name: "41er Avishek Todi",

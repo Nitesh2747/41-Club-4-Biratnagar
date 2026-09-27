@@ -33,6 +33,6 @@ export const boards = [
     name: "41er Rajesh Lohiya",
     term: "National AGM Convenor (2026–27)",
     image: "/images/members/rajesh-lohiya.jpg",
-    tone: "pine",
+    tone: "mustard",
   },
 ];

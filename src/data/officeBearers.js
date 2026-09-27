@@ -2,7 +2,7 @@ export const officeBearers = [
   {
     name: "Rajesh Lohiya",
     role: "Chairman",
-    tone: "pine",
+    tone: "mustard",
     image: "/images/members/rajesh-lohiya.jpg",
   },
   {
@@ -20,7 +20,7 @@ export const officeBearers = [
   {
     name: "Dharmendra Agarwal",
     role: "Treasurer",
-    tone: "marigold",
+    tone: "pine",
     image: "/images/members/dharmendra-agarwal.jpg",
   },
   {

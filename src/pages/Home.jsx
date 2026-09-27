@@ -41,7 +41,7 @@ export default function Home() {
       </div>
 
       <div className="quote-block">
-        <Avatar name="Rajesh Lohiya" tone="marigold" />
+        <Avatar name="Rajesh Lohiya" image="/images/members/rajesh-lohiya.jpg" tone="mustard" />
         <div>
           <p>
             Respected Past Chairman, International VP Nico, Fellow 41ers, Spouses, Tangents & Children.
@@ -71,29 +71,29 @@ export default function Home() {
 
       <div className="preview-grid">
         <Link className="preview-card" to="/about">
-          <Users size={20} color="var(--brick)" />
+          <FileText size={20} color="var(--plum)" />
           <h3>About the club</h3>
           <p>Who we are, and how we fit into the wider 41 Clubs Nepal family.</p>
           <span className="arrow">
             Read more <ArrowUpRight size={14} />
           </span>
         </Link>
+        <Link className="preview-card" to="/members">
+          <Users size={20} color="var(--mustard)" />
+          <h3>Members</h3>
+          <p>Learn more about the dedicated individuals who make up our club.</p>
+          <span className="arrow">
+            Member Details <ArrowUpRight size={14} />
+          </span>
+        </Link>
         <Link className="preview-card" to="/events">
-          <Calendar size={20} color="var(--brick)" />
+          <Calendar size={20} color="var(--olive)" />
           <h3>Events</h3>
           <p>What the club is planning, and where to find us next.</p>
           <span className="arrow">
             See events <ArrowUpRight size={14} />
           </span>
         </Link>
-        {/* <Link className="preview-card" to="/blog">
-          <FileText size={20} color="var(--brick)" />
-          <h3>Blog</h3>
-          <p>Stories and updates from across the 41 Clubs Nepal family.</p>
-          <span className="arrow">
-            Read the blog <ArrowUpRight size={14} />
-          </span>
-        </Link> */}
       </div>
     </div>
   );

@@ -125,7 +125,7 @@ img {
   align-items: center;
 }
 .nav-link,
-.nav-dropdown > button {
+.nav-dropdown > a {
   background: none;
   border: none;
   font-size: 15px;
@@ -138,12 +138,12 @@ img {
   gap: 4px;
 }
 .nav-link.active,
-.nav-dropdown.active > button {
+.nav-dropdown.active > a {
   color: var(--ink);
   border-bottom-color: var(--marigold);
 }
 .nav-link:hover,
-.nav-dropdown > button:hover {
+.nav-dropdown > a:hover {
   color: var(--ink);
 }
 
